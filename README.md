@@ -4,6 +4,8 @@ This is a helper vue component to enable vue developers easily add tootip featur
 It can easily be customized using props;
 
 Here the props definitions:
+
+
 fontSize: {
       type: String,
       default: '1em'
@@ -34,15 +36,16 @@ fontSize: {
       /* This is an identifier for that specofic tooltiip. It enables the use of multiple tooltips on this same page*/
     }
 
-** Usage Below
+Usage Below 
+--
 
 -- Import to page as 
 
-[import tooltip from "./ionic-tooltip.vue";]
+import tooltip from "./ionic-tooltip.vue";
 
 
-[<tooltip for="email" font-size="36px" bg-color="darkblue" icon-color="blue" text-color="white"
-                        message="write on the company address" :is-outline="false"></tooltip>]
+<tooltip for="email" font-size="36px" bg-color="darkblue" icon-color="blue" text-color="white"
+                        message="write on the company address" :is-outline="false"></tooltip>
                         
                         
 ***Refer to the sample page on this repo to see use cases ***
